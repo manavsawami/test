@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Voting System</title>
+
+<link rel="stylesheet" href="vote.css">
+
+</head>
+<body>
+<div class="container">
+    <h1>Online Voting System</h1>
+    <form id="votingForm">
+        <fieldset>
+            <legend>Choose your option:</legend><br>
+            <input type="radio" id="Narender Modi" name="vote" value="Narender Modi">
+            <label for="option1">Narender Modi</label><br><br>
+            <input type="radio" id="Rahul Gandhi" name="vote" value="Rahul Gandhi">
+            <label for="option2">Rahul Gandhi</label><br><br>
+            <input type="radio" id="Arvind Kejirwal" name="vote" value="Arvind Kejirwal">
+            <label for="option3">Arvind Kejirwal</label><br><br>
+        </fieldset>
+        <button type="submit">Vote</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script src="vote.js"></script>
+
+</body>
+</html>
